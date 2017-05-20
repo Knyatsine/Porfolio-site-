@@ -148,3 +148,10 @@ footer p {
 .about {
     padding: 60px;
 }
+
+.contact-form {
+  background: #ffffff;
+    text-align: center;
+    padding: 40px 0;
+    text-transform: uppercase;
+}
