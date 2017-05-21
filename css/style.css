@@ -75,10 +75,17 @@ header li a:hover {
     line-height: 35px;
           display: flex;
     align-items: center;
+     font-size: 18px;
   
 
 }
-
+.development {
+   background: #fff;
+     line-height: 35px;
+          display: flex;
+    align-items: center;
+     font-size: 18px;
+}
 .flex-center {
     display: flex;
     align-items: center;
@@ -102,6 +109,82 @@ img {
     background: url('../images/coding-bg.jpg');
     padding:60px;
 }
+
+.pattern {
+    background: url('../images/pattern-bg.jpg');
+}
+
+.about {
+    padding: 60px;
+       background: url('../images/desk-bg.jpg');
+        line-height: 35px;
+          display: flex;
+    align-items: center;
+    font-size: 18px;
+}
+
+.webdesign {
+     background: url('../images/desk-bg.jpg');
+      padding:60px;
+    line-height: 35px;
+          display: flex;
+    align-items: center;
+     font-size: 18px;
+  
+}
+
+.webmaintance {
+    background: #fff;
+      padding:60px;
+    line-height: 35px;
+          display: flex;
+    align-items: center;
+     font-size: 18px;
+}
+
+.webhosting {
+      background: url('../images/coding-bg.jpg');
+    padding:60px;
+    line-height: 35px;
+          display: flex;
+    align-items: center;
+     font-size: 18px;
+}
+
+.header {
+  background: #ffffff;
+    text-align: center;
+    padding: 40px 0;
+    text-transform: uppercase;
+}
+
+form {
+    padding:120px;
+}
+
+.contact input , textarea{
+    width: 100%;
+    padding: 20px;
+    border: none;
+}
+
+.contact button {
+border: 3px solid #333;
+background: transparent;
+padding: 15px;
+margin: 20px 0;
+font-size: 1em;
+font-weight: bold;
+width: 150px;
+text-align: center;
+transition: background .5s ease-in-out;
+}
+
+.contact button:hover {
+background: #333;
+color: #fff;
+}
+
 
 footer {
     width: 100%;
@@ -141,17 +224,26 @@ footer p {
     -webkit-transition: opacity .2s ease-in-out;
 }
 
-.pattern {
-    background: url('../images/pattern-bg.jpg');
+@media only screen and (min-width: 768px) {
+    /* tablets and desktop */
 }
 
-.about {
-    padding: 60px;
+@media only screen and (max-width: 767px) {
+    /* phones */
 }
 
-.contact-form {
-  background: #ffffff;
-    text-align: center;
-    padding: 40px 0;
-    text-transform: uppercase;
+@media only screen and (max-width: 767px) and (orientation: portrait) {
+header li {
+    display: block;
+}
+
+.flex-center {
+    display: block;
+}
+.footer-nav a {
+    display: block;
+}
+.quotes {
+    display: none;
+}
 }

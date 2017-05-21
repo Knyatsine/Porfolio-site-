@@ -3,30 +3,50 @@
 <head>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+   
 </head>
 
 <body class="pattern">
-<header>
-    <nav class="menu">
-        <ul>
-            <li><a href="index.html">HOME</a></li>
-              <li><a href="about.html">ABOUT</a></li>
-                  <li><a href="service.html">SERVICES</a></li>
-                    <li><a href="contact.html">CONTACT</a></li>
-        </ul>
-    </nav>
-</header>
-<section class="contact-form">
-<h1>Contact</h1>
-</section>
-<section>
-    <div class="container">
-    <form>
-        <label>Name</label> <br>
-        <input type="text" placeholder="Name ">
-        <label>Email</label> <br>
-        <input type="email" placeholder="Email "> <br>
-    </form>
-</section>
+    <header>
+        <nav class="menu">
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="service.html">SERVICES</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="header">
+        <h1>Contact</h1>
+    </section>
+    <section>
+        <div class="container">
+            <form action="/" class="contact">
+                <div class="form-group">
+                    <input type="text" placeholder="Name" name="customer_name">
+                </div>
+                <div class="form-group">
+                    <input type="email" placeholder="Email" name="customer_email">
+                </div>
+                <div class="form-group">
+                    <textarea name="" id="" cols="30" rows="10"placeholder="Message/Comments"></textarea>
+                </div>
+                <div class="form-group">
+                    <button type="button">Submit</button>
+                </div>
+            </form>
+    </section>
+    <footer>
+    <div class="footer-nav">
+    <a href="index.html">HOME</a>
+    <a href="about.html">ABOUT</a>
+    <a href="service.html">SERVICES</a>
+    <a href="contact.html">CONTACT</a>
+</div>
+<p class="copyright" © 2017 Kudzai Nyatsine. All rights reserved.</p>
+</footer>
 </body>
+
 </html>
